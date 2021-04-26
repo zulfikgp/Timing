@@ -389,7 +389,7 @@ double* run_sim(double ku1, double kud, double rpr, int Decoy, double gm0, doubl
 	FILE *file;
 	
 	double DT, *DT2;
-	int Nit2 = 1*pow(10,4), Nit = 1*pow(10,4); // Number of iterations to compute steady state distribution and MFPT
+	int Nit2 = 1*pow(10,5), Nit = 1*pow(10,5); // Number of iterations to compute steady state distribution and MFPT
 	double avg1=0, avg2=0, avg12=0, avg22=0, Var1, Var2, Tst=0, Tsf = 0, Occ1 = 0, Occ2 = 0;
 	int Nin[4], *NOut, *Ntemp;
 	double tend = 2*0.5*pow(10,5); // Time step for sampling over time 
